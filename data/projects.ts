@@ -1,42 +1,72 @@
 export const projects = [
   {
     id: 1,
+    title: "Bazar Dor App",
+    description: "A full-stack price tracking web application for Bangladeshi daily essentials. Features product filtering, price trend analysis, market-wise comparisons, and secure user authentication.",
+    tags: ["Next.js", "TypeScript", "MongoDB", "BetterAuth"],
+    liveUrl: "https://labib-bazar-dor-app-vjr9.vercel.app/",
+    githubUrl: "https://github.com/saaikot/bazar-dor-app",
+    featured: true,
+    image: "/bazardor.png", // ছবি থাকলে "/bazar-dor.png" দিও
+  },
+  {
+    id: 2,
     title: "Glacier Portfolio",
     description: "The very website you are looking at right now. Built with Next.js 14, Tailwind CSS, and Framer Motion with a premium Dark Glassmorphism theme.",
     tags: ["Next.js", "Tailwind", "Framer Motion"],
-    liveUrl: "#", // এখানে তোমার ভের্সেল লিঙ্ক দিও
+    liveUrl: "#", // এখানে তোমার পোর্টফোলিওর লাইভ লিঙ্ক বসাও
     githubUrl: "https://github.com/saaikot/portfolio-glacier",
     featured: true,
     image: "/glacier.png"
   },
   {
-    id: 2,
-    title: "Naruto Themed Portfolio",
-    description: "An immersive anime-themed portfolio featuring custom bamboo scrolls, shinobi ID cards, and custom marker typography.",
-    tags: ["Next.js", "Tailwind", "Framer Motion"],
-    liveUrl: "https://portfolio-naruto-two.vercel.app/", // (তোমার ডিপ্লয় করা লিঙ্ক দিও)
-    githubUrl: "https://github.com/saaikot/portfolio-naruto",
-    featured: false,
-    image: "/naruto-project.png", // 👈 এখানে তোমার আপলোড করা Naruto ছবিটা দিলাম
-  },
-  {
     id: 3,
-    title: "JJK Themed Portfolio",
-    description: "A dark, cursed-energy inspired portfolio featuring domain expansion effects, glowing neons, and glassmorphic UI.",
-    tags: ["Next.js", "Tailwind", "Framer Motion"],
-    liveUrl: "https://jjk-portfolio-saaikot.vercel.app", // (তোমার ডিপ্লয় করা লিঙ্ক দিও)
-    githubUrl: "https://github.com/saaikot/portfolio-jjk",
+    title: "Fitlog App",
+    description: "A dark-themed gym companion app built with Next.js. Fetch exercises, build your daily workout plan, and track your weekly progress with LocalStorage persistence.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://fitlog-app-ruddy.vercel.app/",
+    githubUrl: "https://github.com/saaikot/fitlog-app",
     featured: false,
-    image: "/jjk-project.png", // 👈 এখানে তোমার আপলোড করা JJK ছবিটা দিলাম
+    image: "/fitlog.png", 
   },
   {
     id: 4,
-    title: "First Developer Portfolio",
-    description: "My very first portfolio website built to learn the fundamentals of React, component structuring, and CSS styling.",
-    tags: ["React", "CSS", "JavaScript"],
-    liveUrl: "#", 
-    githubUrl: "https://github.com/saaikot", // (আসল রিপো লিঙ্ক দিও)
+    title: "Naruto Themed Portfolio",
+    description: "An immersive anime-themed portfolio featuring custom bamboo scrolls, shinobi ID cards, and custom marker typography.",
+    tags: ["Next.js", "Tailwind", "Framer Motion"],
+    liveUrl: "https://portfolio-naruto-two.vercel.app/",
+    githubUrl: "https://github.com/saaikot/portfolio-naruto",
     featured: false,
-    image: "", // এই প্রজেক্টেরও ছবি নেই
+    image: "/naruto-project.png",
   },
+  {
+    id: 5,
+    title: "JJK Themed Portfolio",
+    description: "A dark, cursed-energy inspired portfolio featuring domain expansion effects, glowing neons, and glassmorphic UI.",
+    tags: ["Next.js", "Tailwind", "Framer Motion"],
+    liveUrl: "https://jjk-portfolio-saaikot.vercel.app",
+    githubUrl: "https://github.com/saaikot/portfolio-jjk",
+    featured: false,
+    image: "/jjk-project.png",
+  },
+  {
+    id: 6,
+    title: "DevStack Builder",
+    description: "A web application to explore and build your ideal development stack by selecting technologies from different categories, with interactive toast notifications.",
+    tags: ["React", "Tailwind CSS", "Vite"],
+    liveUrl: "https://saaikot.github.io/devstack-assignment/",
+    githubUrl: "https://github.com/saaikot/devstack-assignment",
+    featured: false,
+    image: "/devstack.png", 
+  },
+  {
+    id: 7,
+    title: "DevConf",
+    description: "My foundational web development project built with pure HTML and CSS, focusing on layout structure, styling, and responsive design principles.",
+    tags: ["HTML", "CSS"],
+    liveUrl: "https://saaikot.github.io/first-assignment/",
+    githubUrl: "https://github.com/saaikot/first-assignment",
+    featured: false,
+    image: "/devcon.png", 
+  }
 ];
